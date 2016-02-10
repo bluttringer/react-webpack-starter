@@ -5,7 +5,7 @@ var pathToReact = path.resolve(node_modules, 'react/dist/react.min.js');
 module.exports = {
 	entry: path.resolve(__dirname, 'src/app.jsx'),    
 	output: {
-		path: path.resolve(__dirname, 'build'),
+		path: path.resolve(__dirname, 'build/dist'),
 		filename: 'bundle.js'
 	},
 	module: {
